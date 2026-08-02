@@ -9,11 +9,11 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>dev.forgepack</groupId>
-	<artifactId>{PACKAGE_NAME}</artifactId>
+	<artifactId>forgepack-security</artifactId>
 	<version>0.0.1</version>
 	<name>Maven Library</name>
 	<description>Project for Spring Boot library</description>
-	<url>https://github.com/orgs/forgepack/{PACKAGE_NAME}</url>
+	<url>https://github.com/orgs/forgepack/forgepack-security</url>
 	<licenses>
 		<license>
 			<name>MIT License</name>
@@ -33,9 +33,9 @@
 		</developer>
 	</developers>
 	<scm>
-		<connection>scm:git:git://github.com/forgepack/{PACKAGE_NAME}.git</connection>
-		<developerConnection>scm:git:ssh://github.com:forgepack/{PACKAGE_NAME}.git</developerConnection>
-		<url>https://github.com/forgepack/{PACKAGE_NAME}</url>
+		<connection>scm:git:git://github.com/forgepack/forgepack-security.git</connection>
+		<developerConnection>scm:git:ssh://github.com:forgepack/forgepack-security.git</developerConnection>
+		<url>https://github.com/forgepack/forgepack-security</url>
 		<tag/>
 	</scm>
 	<properties>
