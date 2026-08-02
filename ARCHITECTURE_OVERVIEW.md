@@ -1,6 +1,6 @@
 # ARCHITECTURE OVERVIEW
 
-The __{LIBRARY_NAME}__ is a Spring Boot auto-configuration library structured around a clear separation between public API and private implementation.
+The __forgepack-security__ is a Spring Boot auto-configuration library structured around a clear separation between public API and private implementation.
 
 ## 1. PACKAGE STRUCTURE
 
@@ -38,7 +38,7 @@ The main auto-configuration class is registered there and is discovered automati
 ### 3.2. Configuration Properties
 All configurable values are bound through a strongly-typed properties class prefixed with:
 ```properties
-forgepack.{artifact-id}.*
+forgepack.forgepack-security.*
 ```
 
 ### 3.3. `@ConditionalOnMissingBean`

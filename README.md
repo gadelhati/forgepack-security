@@ -1,10 +1,10 @@
-# _{LIBRARY_NAME}_
-[![GitHub stars](https://img.shields.io/github/stars/forgepack/{ARTIFACT_ID}?style=social)](https://github.com/forgepack/{ARTIFACT_ID})
-[![GitHub forks](https://img.shields.io/github/forks/forgepack/{ARTIFACT_ID}?style=social)](https://github.com/forgepack/{ARTIFACT_ID}/fork)
-[![GitHub watchers](https://img.shields.io/github/watchers/forgepack/{ARTIFACT_ID}?style=social)](https://github.com/forgepack/{ARTIFACT_ID})
+# _forgepack-security_
+[![GitHub stars](https://img.shields.io/github/stars/forgepack/forgepack-security?style=social)](https://github.com/forgepack/forgepack-security)
+[![GitHub forks](https://img.shields.io/github/forks/forgepack/forgepack-security?style=social)](https://github.com/forgepack/forgepack-security/fork)
+[![GitHub watchers](https://img.shields.io/github/watchers/forgepack/forgepack-security?style=social)](https://github.com/forgepack/forgepack-security)
 
-![GitHub last commit](https://img.shields.io/github/last-commit/forgepack/{ARTIFACT_ID})
-![Maven Central](https://img.shields.io/maven-central/v/dev.forgepack/{ARTIFACT_ID})
+![GitHub last commit](https://img.shields.io/github/last-commit/forgepack/forgepack-security)
+![Maven Central](https://img.shields.io/maven-central/v/dev.forgepack/forgepack-security)
 ![Build Status](https://img.shields.io/badge/build-passing-brightgreen)
 ![Test Coverage](https://img.shields.io/badge/coverage-0%25-red)
 
@@ -15,7 +15,7 @@
 
 ## Description
 
-_{LIBRARY_NAME}_ is a Spring Boot auto-configuration library that {DESCRIPTION}.
+_forgepack-security_ is a Spring Boot auto-configuration library that {DESCRIPTION}.
 
 ## SUMMARY
 - [1. Installation](#1-installation)
@@ -32,14 +32,14 @@ _{LIBRARY_NAME}_ is a Spring Boot auto-configuration library that {DESCRIPTION}.
 ```xml
 <dependency>
     <groupId>dev.forgepack</groupId>
-    <artifactId>{ARTIFACT_ID}</artifactId>
+    <artifactId>forgepack-security</artifactId>
     <version>{VERSION}</version>
 </dependency>
 ```
 
 ### 1.2. Gradle
 ```groovy
-implementation 'dev.forgepack:{ARTIFACT_ID}:{VERSION}'
+implementation 'dev.forgepack:forgepack-security:{VERSION}'
 ```
 
 ## 2. USAGE
@@ -61,8 +61,8 @@ public class MyApplication {
 
 ```properties
 # application.properties
-forgepack.{artifact-id}.enabled=true
-forgepack.{artifact-id}.property-name=value
+forgepack.forgepack-security.enabled=true
+forgepack.forgepack-security.property-name=value
 ```
 
 ## 3. AUTO-CONFIGURATION
@@ -108,7 +108,7 @@ mvn clean test jacoco:report
 ```xml
 <dependency>
     <groupId>dev.forgepack</groupId>
-    <artifactId>{ARTIFACT_ID}</artifactId>
+    <artifactId>forgepack-security</artifactId>
     <version>{VERSION}</version>
 </dependency>
 ```
@@ -133,8 +133,8 @@ mvn clean test jacoco:report
 # ╔══════════════════════════════════════════════╗
 # ║         LIBRARY CONFIGURATION                ║
 # ╚══════════════════════════════════════════════╝
-forgepack.{artifact-id}.enabled=true
-forgepack.{artifact-id}.property-name=default-value
+forgepack.forgepack-security.enabled=true
+forgepack.forgepack-security.property-name=default-value
 ```
 
 ## DEVELOPERS
@@ -174,9 +174,9 @@ SOFTWARE.
 
 __⭐ Did you like the project? Leave a star! ⭐__
 
-[![GitHub stars](https://img.shields.io/github/stars/forgepack/{ARTIFACT_ID}?style=social)](https://github.com/forgepack/{ARTIFACT_ID})
-[![GitHub forks](https://img.shields.io/github/forks/forgepack/{ARTIFACT_ID}?style=social)](https://github.com/forgepack/{ARTIFACT_ID}/fork)
-[![GitHub watchers](https://img.shields.io/github/watchers/forgepack/{ARTIFACT_ID}?style=social)](https://github.com/forgepack/{ARTIFACT_ID})
+[![GitHub stars](https://img.shields.io/github/stars/forgepack/forgepack-security?style=social)](https://github.com/forgepack/forgepack-security)
+[![GitHub forks](https://img.shields.io/github/forks/forgepack/forgepack-security?style=social)](https://github.com/forgepack/forgepack-security/fork)
+[![GitHub watchers](https://img.shields.io/github/watchers/forgepack/forgepack-security?style=social)](https://github.com/forgepack/forgepack-security)
 
 __Made by [Forgepack](https://github.com/forgepack)__
 
